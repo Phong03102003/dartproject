@@ -1,0 +1,13 @@
+D:/dev/my_app/dartproject/build/windows/x64/runner/Debug/data/icudtl.dat
+D:/dev/my_app/dartproject/build/windows/x64/runner/Debug/flutter_windows.dll
+D:/dev/my_app/dartproject/build/windows/x64/runner/Debug/native_assets.yaml
+D:/dev/my_app/dartproject/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.bin
+D:/dev/my_app/dartproject/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.bin.json
+D:/dev/my_app/dartproject/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.json
+D:/dev/my_app/dartproject/build/windows/x64/runner/Debug/data/flutter_assets/FontManifest.json
+D:/dev/my_app/dartproject/build/windows/x64/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+D:/dev/my_app/dartproject/build/windows/x64/runner/Debug/data/flutter_assets/kernel_blob.bin
+D:/dev/my_app/dartproject/build/windows/x64/runner/Debug/data/flutter_assets/NOTICES
+D:/dev/my_app/dartproject/build/windows/x64/runner/Debug/data/flutter_assets/NOTICES.Z
+D:/dev/my_app/dartproject/build/windows/x64/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+D:/dev/my_app/dartproject/build/windows/x64/runner/Debug/data/flutter_assets/shaders/ink_sparkle.frag

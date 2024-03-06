@@ -1,0 +1,4 @@
+#Thu Mar 07 00:44:22 ICT 2024
+base.0=D\:\\dev\\my_app\\dartproject\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
