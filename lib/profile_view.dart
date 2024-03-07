@@ -380,7 +380,7 @@ class _Step2FormState extends State<Step2From> {
   List<Ward> wardList = [];
 
   @override
-  void initSate() {
+  void initState() {
     loadLocationDate().then((value) => setState(() {}));
     super.initState();
   }
@@ -397,7 +397,7 @@ class _Step2FormState extends State<Step2From> {
     try {
       // Tải nội dung của tệp JSON từ assets
       String data =
-          await rootBundle.loadString('assets/don_vi_hanh_chinh.json');
+          await rootBundle.loadString('../assets/don_vi_hanh_chinh.json');
       // Chuyển đổi chuỗi JSON thành một đối tượng có kiểu dữ liệu từ điển
       Map<String, dynamic> jsonData = json.decode(data);
       // Trích xuất danh sách các tỉnh dữ liệu từ điển và chuyển đổi thành
