@@ -4,6 +4,7 @@ D:/dev/my_app/dartproject/build/windows/x64/runner/Debug/native_assets.yaml
 D:/dev/my_app/dartproject/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.bin
 D:/dev/my_app/dartproject/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.bin.json
 D:/dev/my_app/dartproject/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.json
+D:/dev/my_app/dartproject/build/windows/x64/runner/Debug/data/flutter_assets/assets/don_vi_hanh_chinh.json
 D:/dev/my_app/dartproject/build/windows/x64/runner/Debug/data/flutter_assets/FontManifest.json
 D:/dev/my_app/dartproject/build/windows/x64/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
 D:/dev/my_app/dartproject/build/windows/x64/runner/Debug/data/flutter_assets/kernel_blob.bin

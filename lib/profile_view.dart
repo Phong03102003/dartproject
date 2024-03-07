@@ -142,7 +142,7 @@ class _ProfileViewState extends State<ProfileView> {
                 }
               });
             },
-            icon: const Icon(Icons.delete_outlined),
+            icon: const Icon(Icons.deblur_outlined),
           )
         ],
       ),
@@ -166,7 +166,7 @@ class _ProfileViewState extends State<ProfileView> {
                             child: const Text('LƯU'),
                           )
                         else
-                          FilledButton(
+                          FilledButton.tonal(
                             onPressed: details.onStepContinue,
                             child: const Text('TIẾP'),
                           ),
@@ -381,7 +381,7 @@ class _Step2FormState extends State<Step2From> {
 
   @override
   void initState() {
-    loadLocationDate().then((value) => setState(() {}));
+    loadLocationData().then((value) => setState(() {}));
     super.initState();
   }
 
@@ -393,11 +393,11 @@ class _Step2FormState extends State<Step2From> {
   ///
   /// Bắn ngoại lệ Throws [Exception]:
   ///  - Nếu có lỗi xảy ra trong quá trình tải hoặc chuyển đổi dữ liệu
-  Future<void> loadLocationDate() async {
+  Future<void> loadLocationData() async {
     try {
       // Tải nội dung của tệp JSON từ assets
       String data =
-          await rootBundle.loadString('../assets/don_vi_hanh_chinh.json');
+          await rootBundle.loadString('assets/don_vi_hanh_chinh.json');
       // Chuyển đổi chuỗi JSON thành một đối tượng có kiểu dữ liệu từ điển
       Map<String, dynamic> jsonData = json.decode(data);
       // Trích xuất danh sách các tỉnh dữ liệu từ điển và chuyển đổi thành
@@ -405,7 +405,8 @@ class _Step2FormState extends State<Step2From> {
       List provinceData = jsonData['province'];
       provinceList =
           provinceData.map((json) => Province.fromMap(json)).toList();
-      // Trích xuất danh sách các tỉnh dữ liệu từ điển và chuyển đổi thành
+
+      // Trích xuất danh sách các huyện dữ liệu từ điển và chuyển đổi thành
       // danh sách các đối tượng District
       List districtData = jsonData['district'];
       districtList =
@@ -575,12 +576,7 @@ class _Step2FormState extends State<Step2From> {
                 });
               },
               onSelected: (option) {
-                if (widget.userInfo.address?.ward != option) {
-                  setState(() {
-                    widget.userInfo.address?.ward = option;
-                    widget.userInfo.address?.ward = null;
-                  });
-                }
+                widget.userInfo.address?.ward = option;
               },
             ),
             TextFormField(
